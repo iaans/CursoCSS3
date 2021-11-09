@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Width</title>
+    <style>
+      body {
+        margin: 50px;
+        padding: 0;
+      }
+      .fundo {
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .fundo > div[class^="largura"] {
+        border-style: solid;
+        border-width: 2px;
+        margin-bottom: 2%;
+        height: 40px;
+        overflow: hidden;
+      }
+
+      .largura-auto {
+        border-color: #00598daa;
+        width: auto;
+      }
+      .largura-vwvh {
+        border-color: #008d44aa;
+        width: 50vw;
+      }
+
+      .largura-percent {
+        width: 50%;
+        border-color: #eb6767aa;
+      }
+
+      .largura-pixel {
+        width: 350px;
+        border-color: #c82aaeaa;
+      }
+
+      .largura-fit {
+        width: fit-content;
+        border-color: #c2f01caa;
+      }
+
+      .largura-min {
+        width: min-content;
+        border-color: #2ac3c8aa;
+      }
+      .largura-max {
+        width: max-content;
+        border-color: #7c2ac8aa;
+      }
+      .largura-revert {
+        width: revert;
+        border-color: #c82a2aaa;
+      }
+      .largura-unset {
+        width: unset;
+        border-color: #57c82aaa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fundo">
+      <div class="largura-auto">
+        AUTO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+        adipisci blanditiis sed id. Dolorum nobis tenetur rerum minima a
+        voluptatibus cupiditate commodi exercitationem est numquam sapiente,
+        porro blanditiis velit dignissimos.
+      </div>
+
+      <div class="largura-vwvh">
+        VWVH: Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+        adipisci blanditiis sed id. Dolorum nobis tenetur rerum minima a
+        voluptatibus cupiditate commodi exercitationem est numquam sapiente,
+        porro blanditiis velit dignissimos.
+      </div>
+
+      <div class="largura-percent">
+        PERCENT: Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+        adipisci blanditiis sed id. Dolorum nobis tenetur rerum minima a
+        voluptatibus cupiditate commodi exercitationem est numquam sapiente,
+        porro blanditiis velit dignissimos.
+      </div>
+
+      <div class="largura-pixel">
+        PIXEL: Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+        adipisci blanditiis sed id. Dolorum nobis tenetur
+      </div>
+
+      <div class="largura-fit">
+        FIT: Dolorum nobis tenetur rerum minima a voluptatibus cupiditate
+        commodi exercitationem est numquam sapiente, porro blanditiis velit
+        dignissimos.
+      </div>
+
+      <div class="largura-max">
+        MAX: Dolorum nobis tenetur rerum minima a voluptatibus cupiditate
+        commodi exercitationem est numquam sapiente, porro blanditiis velit
+        dignissimos.
+      </div>
+
+      <div class="largura-min">
+        MIN: Dolorum nobis tenetur rerum minima a voluptatibus cupiditate
+        commodi exercitationem est numquam sapiente, porro blanditiis velit
+        dignissimos.
+      </div>
+
+      <div class="largura-revert">
+        REVERT: Dolorum nobis tenetur rerum minima a voluptatibus cupiditate
+        commodi exercitationem est numquam sapiente, porro blanditiis velit
+        dignissimos.
+      </div>
+
+      <div class="largura-unset">
+        UNSET: Dolorum nobis tenetur rerum minima a voluptatibus cupiditate
+        commodi exercitationem est numquam sapiente, porro blanditiis velit
+        dignissimos.
+      </div>
+    </div>
+  </body>
+</html>
